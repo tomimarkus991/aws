@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
-  ami           = "ami-1dab2163"
-  instance_type = "t3.nano"
+  ami           = "ami-07ebfd5b3428b6f4d"
+  instance_type = "t2.nano"
 
   tags = {
     Name = "HelloWorld"
